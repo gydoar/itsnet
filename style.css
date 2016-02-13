@@ -1,0 +1,433 @@
+/*
+Theme Name: suwwweb
+Theme URI: https://github.com/gydoar/suwwweb
+Author: suwwweb
+Author URI: http://suwwweb.com/
+Description: Tema base para los desarrollos futuros de todos los clientes.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: wordpress, html5, css3, jquery, javascript, suwwweb
+*/
+
+/*------------------------------------*\
+    $CONTENIDO
+\*------------------------------------*/
+/**
+ * CONTENIDO...........Lo estás leyendo!!
+ * INCLUDE CSS...............Establece los valores iniciales
+ * FONT-FACE...........Importamos fuentes de iconos y font-face
+ * STYLES..............
+ * MEDIA-QUERIES.......
+ */
+
+/*------------------------------------*\
+    $INCLUDE CSS
+\*------------------------------------*/
+@import url(library/css/normalize.css);
+@import url(library/css/skeleton.css);
+@import url(library/css/wp_css.css);
+@import url(library/css/meanmenu.css);
+@import url(library/css/vertical-tabs.css);
+@import url(library/css/easy-responsive-tabs.css);
+
+
+
+
+
+/*------------------------------------*\
+    $STYLES
+\*------------------------------------*/
+header{
+
+}
+.logo{
+	padding-top: 10px;
+	text-align: center;
+}
+.logo h1{
+	margin-bottom: 0px;
+}
+ul#menu-menu-header{
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+ul#menu-menu-header li{
+	display: inline-block;
+}
+ul#menu-menu-header li a{
+	text-decoration: none;
+	margin: 0px 20px;
+	color: #666666;
+	font-weight: 600;
+}
+
+/**** Home *****/
+.home__dest{
+	margin-top: 25px;
+}
+.home__dest h2{
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.servicios__home{
+	padding: 60px 0px;
+	color: #ffffff;
+	background-image: url(library/img/bg-home-servicios.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.servicios__home h3{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-weight: 500;
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+.servicios__home h4{
+	color: #ec6e02;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: .5px;
+	margin-bottom: 10px;
+}
+.servicios__home p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.caja__icon__servicios__home{
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #ffffff;
+	width: 64px;
+	height: 64px;
+	margin-bottom: 10px;
+}
+.caja__icon__servicios__home img{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+/** Logo Clientes Home ***/
+.logos__clientes__home{
+	padding-top: 40px;
+}
+.logos__clientes__home h3{
+		font-weight: 500;
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+.list__clientes li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 25px;
+}
+.list__clientes li img{
+	vertical-align: middle;
+}
+/*** Destacados home ***/
+.destacados__home{
+	margin-top: 80px;
+	position: relative;
+	text-align: center;
+}
+.destacados__home h3{
+	font-size: 22px;
+	font-weight: 700;
+	color: #ec6e02;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.destacados-1{
+	left: 20px;
+	position: relative;
+	border:2px solid #ec6e02;
+	background-image: url(library/img/desta-1.png);
+	padding: 20px;
+	background-attachment: relative;
+	background-position: relative;
+	background-position: center center;
+	width: 534px;
+	min-height: 330px;
+	width: 25%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.destacados-2{
+	z-index: 0;
+	right: 16px;
+	position: relative;
+	border:2px solid #ec6e02;
+	background-image: url(library/img/desta-2.png);
+	padding: 20px;
+	background-attachment: relative;
+	background-position: relative;
+	background-position: center center;
+	width: 534px;
+	min-height: 330px;
+	width: 25%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.destacados-central{
+	margin: 0px 10px;
+	border:2px solid #ec6e02;
+	background-image: url(library/img/desta-central.png);
+	padding: 20px;
+	background-attachment: relative;
+	background-position: relative;
+	background-position: center center;
+	width: 800px;
+	position: relative;
+	min-height: 350px;
+	background-repeat: no-repeat;
+	width: 30%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+}
+.destacados-1,.destacados-2,.destacados-central{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer{
+	padding: 0px 0px 40px 0px;
+}
+.footer img, .contact__footer{
+	vertical-align: bottom;
+}
+.contact__footer p{
+	margin-bottom: 5px;
+}
+.sombra__footer{
+	box-shadow: 0px -5px 20px #666666;
+	border: 1px solid #ffffff;
+}
+.copyright{
+	padding: 20px 0px;
+    font-size: 12px;
+	text-align: center;
+}
+.copyright a{
+    color: #bcc0c4;
+	text-decoration: none;
+	
+}
+.copyright p{
+	color: #bcc0c4;
+	margin-bottom: 0px;
+}
+.center{
+	text-align: center;
+}
+.line__orange{
+	border-bottom: 7px solid #ec6e02;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/**** Page ***/ 
+.page{
+	padding: 40px 0px 10px 0px;
+}
+.header__page{
+	padding: 40px 0px;
+	color: #ffffff;
+	background-image: url(library/img/banner_page.png);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	min-height: 245px;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header__page h2{
+	margin-top: 60px;
+	font-size: 36px;
+	font-weight: 600;
+	letter-spacing: .5px;
+}
+
+.header__page p{
+	font-size: 16px;
+}
+/***** Tabs ****/
+.titulo_servicios{
+	position: relative;
+	right: 40px;
+	border:1px solid #000000;
+}
+.titulo_servicios li {
+	border-bottom: 1px solid #000000;
+	padding: 5px 0px 0px 10px;
+	list-style: none;
+	vertical-align: top;
+}
+.titulo_servicios li a{
+	text-decoration: none;
+}
+
+
+div#wpcf7-f14-p15-o1{
+	text-align: center !important;
+}
+form.wpcf7-form{
+	text-align: center;
+}
+.resp-tab-content.hor_1.resp-tab-content-active, .resp-tab-content.hor_2.resp-tab-content-active{
+	height: 100%;
+	
+
+}
+.resp-tabs-container.hor_1, .resp-tabs-container.hor_2, .resp-tabs-container.hor_3{
+	border-color: #ec6e02 !important;
+	margin-bottom: 40px;
+}
+.tab-1{
+	margin-bottom: 40px;
+}
+.title-tab{
+	background: #ec6e02;
+	color: #ffffff;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 0px;
+}
+p.title-tab{
+	padding-top: 10px;
+}
+.espacio-tab{
+	margin-bottom: 40px;
+	position: absolute;
+}
+#parentVerticalTab-1{
+	margin-bottom: 50px;
+
+}
+.col1{
+	max-width: 25%;
+}
+.col2{
+	max-width: 70%;
+}
+.col1,.col2{
+	display: inline-block;
+	vertical-align: top;
+}
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		footer{
+			text-align: center;
+		}
+		footer img{
+			width: 50%;
+		}
+		.destacados-1{
+			left: 0px;
+			position: relative;
+		}
+		.destacados-2{
+			right: 0px;
+		}
+		.destacados-central{
+			margin: 0px;
+		}
+		.destacados-1,.destacados-2,.destacados-central{
+			width: 100%;
+			display: block;
+			padding: 0px;
+		}
+		.copyright p{
+			text-align: center !important;
+		}
+		.servicios__home{
+			background: #0F0F0F;
+		}
+		.logo__servicios{
+			width: 50%;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		footer{
+			text-align: center;
+		}
+		footer img{
+			width: 50%;
+		}
+		.destacados-1{
+			left: 0px;
+			position: relative;
+			width: 100%;
+		}
+		.destacados-2{
+			right: 0px;
+			width: 100%;
+		}
+		.destacados-central{
+			margin: 0px;
+			width: 100%;
+		}
+		.destacados-1,.destacados-2,.destacados-central{
+			display: block;
+			width: 100%;
+			padding: 0px;
+		}
+		.copyright p{
+			text-align: center !important;
+		}
+		.servicios__home{
+			background: #0F0F0F;
+		}
+		.page{
+			padding: 20px 20px 0px 20px;
+		}
+		.logo__servicios{
+			width: 50%;
+		}
+	}
